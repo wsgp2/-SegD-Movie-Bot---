@@ -1,0 +1,6 @@
+pyTelegramBotAPI
+aiohttp
+pytz
+openpyxl
+aiosqlite
+matplotlib

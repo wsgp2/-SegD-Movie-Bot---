@@ -1,0 +1,11 @@
+# Зависимости для SegD_Bot на сервере Oracle Cloud
+pyTelegramBotAPI
+aiohttp
+pytz
+openpyxl
+aiosqlite
+matplotlib
+
+# Дополнительные зависимости для сервера
+requests
+psutil
