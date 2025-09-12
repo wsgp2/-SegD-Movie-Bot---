@@ -391,32 +391,32 @@ async def _cmd_about(message, bot, db):
     """
     chat_id = message.chat.id
     
-    about_text = """🤖 О боте "Личный Кинокритик"
+    about_text = """О боте Личный Кинокритик
 
-👨💻 Создатель: SergD  
-🔗 Telegram: https://t.me/sergei_dyshkant
+Создатель: SergD  
+Telegram: https://t.me/sergei_dyshkant
 
-🎯 Специализация:
-• Telegram-боты под любые задачи
-• Автоматизация бизнес-процессов  
-• Интеграции с CRM, API, базами данных
-• Веб-приложения и сервисы
+Специализация:
+- Telegram-боты под любые задачи
+- Автоматизация бизнес-процессов  
+- Интеграции с CRM, API, базами данных
+- Веб-приложения и сервисы
 
-💡 Хотите себе бота?
-📞 Пишите помощнику: https://t.me/TomMedved
+Хотите себе бота?
+Пишите помощнику: https://t.me/TomMedved
 
-⚡ Преимущества:
-• Быстрая разработка
-• Качественный код
-• Поддержка после запуска
-• Разумные цены
+Преимущества:
+- Быстрая разработка
+- Качественный код
+- Поддержка после запуска
+- Разумные цены
 
-🛠 Этот бот создан с использованием:
-• Python + AsyncIO
-• SQLite база данных  
-• Matplotlib для графиков
-• Развернут на Oracle Cloud
+Этот бот создан с использованием:
+- Python + AsyncIO
+- SQLite база данных  
+- Matplotlib для графиков
+- Развернут на Oracle Cloud
 
 Используйте /start для возврата к меню"""
     
-    await bot.send_message(chat_id, about_text, parse_mode=None)
+    await bot.send_message(chat_id, about_text)

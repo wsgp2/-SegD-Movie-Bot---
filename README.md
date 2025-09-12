@@ -102,7 +102,7 @@ source venv/bin/activate  # Linux/Mac
 pip install -r server_requirements.txt
 
 # Настройка конфигурации
-# Отредактируйте config.py - добавьте свой токен и ID админов
+# Отредактируйте config.py - добавьте свой токен от @BotFather и ID админов
 
 # Запуск
 python main.py

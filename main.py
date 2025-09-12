@@ -28,7 +28,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-bot = AsyncTeleBot(config.TOKEN, parse_mode='markdown')
+bot = AsyncTeleBot(config.TOKEN)
 
 async def main():
     logger.info('🚀 Запуск SegD_Bot - Личный кинокритик')
